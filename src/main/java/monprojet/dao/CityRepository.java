@@ -2,6 +2,7 @@ package monprojet.dao;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import monprojet.entity.City;
+import org.springframework.data.jpa.repository.Query;
 
 public interface CityRepository extends JpaRepository<City, Integer> {
 
